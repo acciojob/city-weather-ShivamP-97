@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+\import React, { useEffect, useState } from "react";
 import "./../styles/App.css";
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
   const searchWeather = ()=> {
     if (query.length === 0) return;
 
-    const API_KEY = "Your_Key";
+    const API_KEY = "0bd4c354c356d22e15a517de69d46f41";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`;
 
     fetch(url)
