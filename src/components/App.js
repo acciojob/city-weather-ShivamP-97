@@ -8,7 +8,7 @@ const App = () => {
   const searchWeather = ()=> {
     if (query.length === 0) return;
 
-    const API_KEY = "caa8410cad1f7ea5352218adf7247a08";
+    const API_KEY = "0bd4c354c356d22e15a517de69d46f41";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${query}&appid=${API_KEY}`;
 
     fetch(url)
